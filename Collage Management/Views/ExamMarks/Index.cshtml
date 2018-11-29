@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Collage_Management.Models.ExamMark>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+    <a class="btn btn-warning" data-toggle="tooltip" title="Create New" href="@Url.Action("Create","ExamMarks")"><i class="fa fa-plus"></i></a>
+</p>
+
+<div class="table-agile-info">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            ExamMark table
+        </div>
+        <div>
+            <table class="table" ui-jq="footable" ui-options="{
+        &quot;paging&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;filtering&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;sorting&quot;: {
+          &quot;enabled&quot;: true
+        }}">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SubjectCode)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Marks)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ExamName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Session)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.AddedDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Department.DepartmentName)
+                        </th>
+                       
+                        <th>
+                            @Html.DisplayNameFor(model => model.Semester.SemesterName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Student.StudentName)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                   @foreach (var item in Model)
+                   {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SubjectCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Marks)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ExamName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Session)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AddedDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+                        </td>
+                       
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Semester.SemesterName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Student.StudentName)
+                        </td>
+                        <td>
+                            <a class="text-success" data-toggle="tooltip" title="Edit" href="@Url.Action("Edit","ExamMarks", new { id=item.Id})"><i class="fa fa-edit"></i></a>
+                            <a class="text-danger" data-toggle="tooltip" title="Delete" href="@Url.Action("Delete","ExamMarks", new { id=item.Id})"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                   }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Collage_Management.Models.Semester>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+    <a class="btn btn-warning" data-toggle="tooltip" title="Create New" href="@Url.Action("Create","Semesters")"><i class="fa fa-plus"></i></a>
+</p>
+
+<div class="table-agile-info">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Semester table
+        </div>
+        <div>
+            <table id="myTable" class="table table-bordered" ui-jq="footable" ui-options="{
+        &quot;paging&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;filtering&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;sorting&quot;: {
+          &quot;enabled&quot;: true
+        }}">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SemesterName)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                  @foreach (var item in Model)
+                  {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SemesterName)
+                        </td>
+                        <td>
+                            <a class="text-success" data-toggle="tooltip" title="Edit" href="@Url.Action("Edit","Semesters", new { id=item.SemesterId })"><i class="fa fa-edit"></i></a>
+                            <a class="text-danger" data-toggle="tooltip" title="Delete" href="@Url.Action("Delete","Semesters", new { id=item.SemesterId })"><i class="fa fa-trash-o"></i>|</a>
+                        </td>
+                    </tr>
+                  }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+
+$(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>

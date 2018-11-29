@@ -1,0 +1,185 @@
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\csc.exe
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\vbc.exe
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\Collage Management.dll.config
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\Collage Management.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\Collage Management.pdb
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Helpers.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Mvc.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Razor.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Webpages.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Webpages.Razor.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Razor.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Webpages.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Webpages.Razor.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Helpers.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\System.Web.Mvc.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\obj\Debug\Collage Management.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\obj\Debug\Collage Management.pdb
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\EntityFramework.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\EntityFramework.SqlServer.dll
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\EntityFramework.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\bin\EntityFramework.SqlServer.xml
+C:\Users\Abu Zafor\Desktop\Collage Management\Collage Management\obj\Debug\Collage Management.csprojResolveAssemblyReference.cache
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\csc.exe
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\System.Collections.Immutable.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\System.Reflection.Metadata.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\vbc.exe
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe.config
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\Collage Management.dll.config
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\Collage Management.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\Collage Management.pdb
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\Microsoft.Web.Infrastructure.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Razor.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Razor.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.xml
+G:\MVC5\Success\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.csprojResolveAssemblyReference.cache
+G:\MVC5\Success\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.dll
+G:\MVC5\Success\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.pdb
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\csc.exe
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\System.Collections.Immutable.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\System.Reflection.Metadata.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\vbc.exe
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe.config
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\Collage Management.dll.config
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\Collage Management.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\Collage Management.pdb
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\Microsoft.Web.Infrastructure.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Razor.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Razor.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.xml
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.csprojResolveAssemblyReference.cache
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.dll
+E:\MVC T\MVC5\Success\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.pdb
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\csc.exe
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\System.Collections.Immutable.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\System.Reflection.Metadata.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\vbc.exe
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe.config
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\Collage Management.dll.config
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\Collage Management.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\Collage Management.pdb
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\EntityFramework.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\Microsoft.Web.Infrastructure.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Razor.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\EntityFramework.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Razor.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.xml
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.csprojResolveAssemblyReference.cache
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.dll
+E:\AComplete ProJects\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.pdb
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\csc.exe
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\System.Collections.Immutable.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\System.Reflection.Metadata.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\vbc.exe
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\roslyn\VBCSCompiler.exe.config
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\Collage Management.dll.config
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\Collage Management.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\Collage Management.pdb
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\EntityFramework.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\Microsoft.Web.Infrastructure.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Razor.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\EntityFramework.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\EntityFramework.SqlServer.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Razor.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Deployment.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Webpages.Razor.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Helpers.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\bin\System.Web.Mvc.xml
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.csprojResolveAssemblyReference.cache
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.dll
+E:\AComplete ProJects\MVC\Collage Management Final Project\Collage Management\obj\Debug\Collage Management.pdb

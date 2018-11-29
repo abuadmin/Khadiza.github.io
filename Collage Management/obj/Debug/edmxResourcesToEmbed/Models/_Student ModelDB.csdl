@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="School_ManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ExamMarks" Relationship="Self.FK__ExamMarks__Depar__24927208" FromRole="Department" ToRole="ExamMarks" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__Departm__1CF15040" FromRole="Department" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Designation">
+    <Key>
+      <PropertyRef Name="DesignationId" />
+    </Key>
+    <Property Name="DesignationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DesignationName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Teachers" Relationship="Self.FK__Teacher__Designa__182C9B23" FromRole="Designation" ToRole="Teacher" />
+  </EntityType>
+  <EntityType Name="ExamMark">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="SubjectCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Marks" Type="Decimal" Precision="8" Scale="2" />
+    <Property Name="ExamName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="SemesterId" Type="Int32" />
+    <Property Name="Session" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="DepartmentId" Type="Int32" />
+    <Property Name="AddedDate" Type="DateTime" Precision="0" />
+    <Property Name="AddedBy" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__ExamMarks__Depar__24927208" FromRole="ExamMarks" ToRole="Department" />
+    <NavigationProperty Name="User" Relationship="Self.FK__ExamMarks__Added__25869641" FromRole="ExamMarks" ToRole="Users" />
+    <NavigationProperty Name="Semester" Relationship="Self.FK__ExamMarks__Semes__239E4DCF" FromRole="ExamMarks" ToRole="Semester" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__ExamMarks__Stude__22AA2996" FromRole="ExamMarks" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Semester">
+    <Key>
+      <PropertyRef Name="SemesterId" />
+    </Key>
+    <Property Name="SemesterId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SemesterName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ExamMarks" Relationship="Self.FK__ExamMarks__Semes__239E4DCF" FromRole="Semester" ToRole="ExamMarks" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__Semeste__1DE57479" FromRole="Semester" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Shift">
+    <Key>
+      <PropertyRef Name="ShiftId" />
+    </Key>
+    <Property Name="ShiftId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ShiftName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__ShiftId__1ED998B2" FromRole="Shift" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Session" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="DepartmentId" Type="Int32" />
+    <Property Name="SemesterId" Type="Int32" />
+    <Property Name="ShiftId" Type="Int32" />
+    <Property Name="RegNo" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="AddedDate" Type="DateTime" Precision="0" />
+    <Property Name="AddedBy" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Student__Departm__1CF15040" FromRole="Student" ToRole="Department" />
+    <NavigationProperty Name="ExamMarks" Relationship="Self.FK__ExamMarks__Stude__22AA2996" FromRole="Student" ToRole="ExamMarks" />
+    <NavigationProperty Name="Semester" Relationship="Self.FK__Student__Semeste__1DE57479" FromRole="Student" ToRole="Semester" />
+    <NavigationProperty Name="Shift" Relationship="Self.FK__Student__ShiftId__1ED998B2" FromRole="Student" ToRole="Shift" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Student__AddedBy__1FCDBCEB" FromRole="Student" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TeacherId" />
+    </Key>
+    <Property Name="TeacherId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeacherName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DesignationID" Type="Int32" />
+    <Property Name="PhoneNo" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Designation" Relationship="Self.FK__Teacher__Designa__182C9B23" FromRole="Teacher" ToRole="Designation" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserRole" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ExamMarks" Relationship="Self.FK__ExamMarks__Added__25869641" FromRole="Users" ToRole="ExamMarks" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__AddedBy__1FCDBCEB" FromRole="Users" ToRole="Student" />
+  </EntityType>
+  <Association Name="FK__ExamMarks__Depar__24927208">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="ExamMarks" Type="Self.ExamMark" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="ExamMarks">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Departm__1CF15040">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Teacher__Designa__182C9B23">
+    <End Role="Designation" Type="Self.Designation" Multiplicity="0..1" />
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Designation">
+        <PropertyRef Name="DesignationId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="DesignationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ExamMarks__Added__25869641">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="ExamMarks" Type="Self.ExamMark" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ExamMarks">
+        <PropertyRef Name="AddedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ExamMarks__Semes__239E4DCF">
+    <End Role="Semester" Type="Self.Semester" Multiplicity="0..1" />
+    <End Role="ExamMarks" Type="Self.ExamMark" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Semester">
+        <PropertyRef Name="SemesterId" />
+      </Principal>
+      <Dependent Role="ExamMarks">
+        <PropertyRef Name="SemesterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ExamMarks__Stude__22AA2996">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="ExamMarks" Type="Self.ExamMark" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="ExamMarks">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Semeste__1DE57479">
+    <End Role="Semester" Type="Self.Semester" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Semester">
+        <PropertyRef Name="SemesterId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SemesterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ShiftId__1ED998B2">
+    <End Role="Shift" Type="Self.Shift" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shift">
+        <PropertyRef Name="ShiftId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ShiftId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__AddedBy__1FCDBCEB">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="AddedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="School_ManagementEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Designations" EntityType="Self.Designation" />
+    <EntitySet Name="ExamMarks" EntityType="Self.ExamMark" />
+    <EntitySet Name="Semesters" EntityType="Self.Semester" />
+    <EntitySet Name="Shifts" EntityType="Self.Shift" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="Teachers" EntityType="Self.Teacher" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__ExamMarks__Depar__24927208" Association="Self.FK__ExamMarks__Depar__24927208">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="ExamMarks" EntitySet="ExamMarks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Departm__1CF15040" Association="Self.FK__Student__Departm__1CF15040">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Teacher__Designa__182C9B23" Association="Self.FK__Teacher__Designa__182C9B23">
+      <End Role="Designation" EntitySet="Designations" />
+      <End Role="Teacher" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ExamMarks__Added__25869641" Association="Self.FK__ExamMarks__Added__25869641">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ExamMarks" EntitySet="ExamMarks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ExamMarks__Semes__239E4DCF" Association="Self.FK__ExamMarks__Semes__239E4DCF">
+      <End Role="Semester" EntitySet="Semesters" />
+      <End Role="ExamMarks" EntitySet="ExamMarks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ExamMarks__Stude__22AA2996" Association="Self.FK__ExamMarks__Stude__22AA2996">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="ExamMarks" EntitySet="ExamMarks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Semeste__1DE57479" Association="Self.FK__Student__Semeste__1DE57479">
+      <End Role="Semester" EntitySet="Semesters" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ShiftId__1ED998B2" Association="Self.FK__Student__ShiftId__1ED998B2">
+      <End Role="Shift" EntitySet="Shifts" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__AddedBy__1FCDBCEB" Association="Self.FK__Student__AddedBy__1FCDBCEB">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

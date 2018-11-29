@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Collage_Management.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+    <a class="btn btn-warning" data-toggle="tooltip" title="Create New" href="@Url.Action("Create","Users")"><i class="fa fa-plus"></i></a>
+</p>
+
+
+
+
+
+
+<div class="table-agile-info">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Users table
+        </div>
+        <div>
+            <table class="table" ui-jq="footable" ui-options="{
+        &quot;paging&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;filtering&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;sorting&quot;: {
+          &quot;enabled&quot;: true
+        }}">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UserName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Password)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UserRole)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Password)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserRole)
+                            </td>
+                            <td>
+                                <a class="text-success" data-toggle="tooltip" title="Edit" href="@Url.Action("Edit","Users", new { id=item.UserId})"><i class="fa fa-edit"></i></a>
+                                <a class="text-danger" data-toggle="tooltip" title="Delete" href="@Url.Action("Delete","Users", new { id=item.UserId})"><i class="fa fa-trash-o"></i>|</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="97340451b2e94a35a46d74357e3c9f91" Name="Diagram1">
+        <EntityTypeShape EntityType="School_ManagementModel.Department" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.Designation" Width="1.5" PointX="8.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.ExamMark" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.Semester" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.Shift" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.Student" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.Teacher" Width="1.5" PointX="11" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_ManagementModel.User" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="School_ManagementModel.FK__ExamMarks__Depar__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__Student__Departm__1CF15040" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__Teacher__Designa__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__ExamMarks__Added__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__ExamMarks__Semes__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__ExamMarks__Stude__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__Student__Semeste__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__Student__ShiftId__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="School_ManagementModel.FK__Student__AddedBy__1FCDBCEB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

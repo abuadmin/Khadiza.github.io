@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Collage_Management.Models.Teacher>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+            <p>
+                @*@Html.ActionLink("Create New", "Create")*@
+                <a class="btn btn-warning" data-toggle="tooltip" title="Create New" href="@Url.Action("Create","Teachers")"><i class="fa fa-plus"></i></a>
+            </p>
+
+            <div class="table-agile-info">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Teachers table
+                    </div>
+                    <div>
+                        <table class="table" ui-jq="footable" ui-options="{
+        &quot;paging&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;filtering&quot;: {
+          &quot;enabled&quot;: true
+        },
+        &quot;sorting&quot;: {
+          &quot;enabled&quot;: true
+        }}">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TeacherName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.PhoneNo)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Address)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Designation.DesignationName)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TeacherName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PhoneNo)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Address)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Designation.DesignationName)
+                                        </td>
+                                        <td>
+                                            <a class="text-success" data-toggle="tooltip" title="Edit" href="@Url.Action("Edit","Teachers", new { id=item.TeacherId})"><i class="fa fa-edit"></i></a>
+                                            <a class="text-danger" data-toggle="tooltip" title="Delete" href="@Url.Action("Delete","Teachers", new { id=item.TeacherId})"><i class="fa fa-trash-o"></i>|</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>

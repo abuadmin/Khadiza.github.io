@@ -1,0 +1,120 @@
+﻿@model Collage_Management.Models.ExamMark
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+
+
+
+
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SubjectCode)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.SubjectCode)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Marks)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Marks)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.ExamName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.ExamName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Session)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Session)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.AddedDate)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.AddedDate)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Department.DepartmentName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Department.DepartmentName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.User.UserName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.User.UserName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Semester.SemesterName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Semester.SemesterName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Student.StudentName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Student.StudentName)
+                    </dd>
+
+                </dl>
+            </div>
+            <div class="modal-footer">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-actions no-color">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                        <a class="btn btn-primary" href="@Url.Action("Index", "ExamMarks")">Back to List</a>
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+$(window).load(function(){
+   $('#myModal').modal('show');
+});
+</script>
